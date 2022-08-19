@@ -1,0 +1,7 @@
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Tests
+          script:
+            - echo "Tests can be run here instead of echo"
